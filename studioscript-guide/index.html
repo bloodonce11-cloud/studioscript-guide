@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StudioScript Guide: tutoriales de Roblox Studio y Lua</title>
+  <meta name="description" content="Guías paso a paso para aprender Roblox Studio y programación en Lua (Luau) desde cero, con ejemplos de código explicados y enlaces a la documentación oficial.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="StudioScript Guide">
+  <meta property="og:title" content="StudioScript Guide: tutoriales de Roblox Studio y Lua">
+  <meta property="og:description" content="Guías paso a paso para aprender Roblox Studio y programación en Lua (Luau) desde cero.">
+
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#0b5cad">
+  <!-- Search Console (método "etiqueta HTML"): pega aquí la etiqueta que te dé Google, por ejemplo:
+  <meta name="google-site-verification" content="PEGA_AQUI_TU_CODIGO">
+  -->
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script defer src="assets/js/main.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "StudioScript Guide",
+    "inLanguage": "es",
+    "description": "Tutoriales de Roblox Studio y programación en Lua para principiantes."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./">
+        <img src="assets/img/favicon.svg" alt="" width="28" height="28">
+        <span>StudioScript Guide</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menú</button>
+      <nav id="site-nav" class="site-nav" aria-label="Principal">
+        <ul>
+          <li><a href="tutoriales/">Tutoriales</a></li>
+          <li><a href="about/">Acerca de</a></li>
+          <li><a href="contact/">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="container">
+        <h1 id="titulo-principal">Aprende Roblox Studio y Lua paso a paso</h1>
+        <p class="lead">Guías para principiantes con instrucciones numeradas, código explicado y enlaces a la documentación oficial para que puedas comprobar y ampliar lo que lees.</p>
+        <form class="search" role="search" action="tutoriales/" method="get">
+          <label class="sr-only" for="q">Buscar tutoriales</label>
+          <input id="q" name="q" type="search" placeholder="Buscar tutoriales (por ejemplo: script, Touched)" autocomplete="off">
+          <button class="btn" type="submit">Buscar</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="titulo-categorias">
+      <div class="container">
+        <div class="section__head">
+          <h2 id="titulo-categorias">Categorías</h2>
+          <p>Los temas están ordenados de lo más básico a lo más avanzado. Las categorías marcadas como «En preparación» aún no tienen guías publicadas.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <span class="badge">Disponible</span>
+            <h3><a class="card__link" href="tutoriales/?categoria=primeros-pasos">Primeros pasos</a></h3>
+            <p>Conoce la interfaz de Roblox Studio y escribe tu primer script.</p>
+          </article>
+          <article class="card card--soon">
+            <span class="badge badge--soon">En preparación</span>
+            <h3>Fundamentos de Lua</h3>
+            <p>Variables, condiciones, bucles, funciones y tablas.</p>
+          </article>
+          <article class="card card--soon">
+            <span class="badge badge--soon">En preparación</span>
+            <h3>Scripting en Roblox</h3>
+            <p>Eventos, propiedades de objetos y servicios del motor.</p>
+          </article>
+          <article class="card card--soon">
+            <span class="badge badge--soon">En preparación</span>
+            <h3>Interfaces (GUI)</h3>
+            <p>Pantallas, botones y textos para tus experiencias.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="titulo-destacados">
+      <div class="container">
+        <div class="section__head">
+          <h2 id="titulo-destacados">Artículos destacados</h2>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <p>
+              <span class="badge">Primeros pasos</span>
+              <span class="badge badge--demo" data-remove-before-publish>Borrador</span>
+            </p>
+            <h3><a class="card__link" href="tutoriales/primer-script-lua-roblox-studio/">Tu primer script en Roblox Studio con Lua</a></h3>
+            <p>Crea un Script, imprime un mensaje, cambia el color de una pieza y haz que reaccione al contacto con Touched.</p>
+            <p class="card__meta">Nivel: principiante</p>
+          </article>
+        </div>
+        <div class="notice notice--info" role="note" data-remove-before-publish>
+          <p><strong>Sitio en construcción.</strong> Ahora mismo hay una sola guía y está en borrador. Se irán añadiendo más a medida que estén revisadas. <a href="tutoriales/">Ver el índice de tutoriales</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="titulo-formato">
+      <div class="container">
+        <div class="section__head">
+          <h2 id="titulo-formato">Cómo están pensadas las guías</h2>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <h3>Pasos numerados</h3>
+            <p>Cada guía separa las acciones en pasos cortos para que puedas seguirlas sin perderte.</p>
+          </div>
+          <div class="feature">
+            <h3>Código que puedes copiar</h3>
+            <p>Los bloques de código incluyen un botón para copiarlos y una explicación de lo que hace cada parte.</p>
+          </div>
+          <div class="feature">
+            <h3>Fuentes oficiales</h3>
+            <p>Enlazamos a la documentación de Roblox y de Luau para que puedas verificar y profundizar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p><strong>StudioScript Guide</strong></p>
+        <p>Tutoriales para aprender Roblox Studio y Lua desde cero.</p>
+        <p class="small">Roblox y Roblox Studio son marcas de Roblox Corporation. Este sitio es independiente y no está afiliado ni respaldado por Roblox.</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <ul class="footer-links">
+          <li><a href="tutoriales/">Tutoriales</a></li>
+          <li><a href="about/">Acerca de</a></li>
+          <li><a href="contact/">Contacto</a></li>
+          <li><a href="privacy-policy/">Política de privacidad</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container"><p class="small">© 2026 StudioScript Guide</p></div>
+  </footer>
+</body>
+</html>

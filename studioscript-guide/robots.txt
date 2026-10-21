@@ -1,0 +1,5 @@
+# StudioScript Guide
+# En un sitio de proyecto de GitHub Pages, este archivo está bajo /studioscript-guide/
+# y los rastreadores suelen buscar robots.txt en la raíz del dominio.
+User-agent: *
+Allow: /

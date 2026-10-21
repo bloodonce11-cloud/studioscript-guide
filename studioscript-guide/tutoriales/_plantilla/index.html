@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!--
+    PLANTILLA DE ARTÍCULO — StudioScript Guide
+    Esta carpeta empieza por "_" para que GitHub Pages NO la publique.
+
+    CÓMO USARLA
+    1. Copia la carpeta "_plantilla" dentro de /tutoriales/ y ponle el nombre de la URL
+       (minúsculas, sin acentos ni espacios, con guiones). Ej.: tutoriales/variables-en-luau/
+    2. Edita este index.html: busca todo lo que diga "EDITA" y "TU-USUARIO".
+    3. Añade la categoría y las palabras clave en la tarjeta de /tutoriales/index.html.
+    4. Cuando hayas probado TODO el contenido, quita la etiqueta noindex y añade la URL a sitemap.xml.
+  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EDITA: título del artículo (máx. ~60 caracteres)</title>
+  <meta name="description" content="EDITA: resumen de 120–155 caracteres que describa el artículo con tus palabras.">
+  <!-- Mantén noindex mientras sea un borrador. -->
+  <meta name="robots" content="noindex, follow">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="StudioScript Guide">
+  <meta property="og:title" content="EDITA: título del artículo">
+  <meta property="og:description" content="EDITA: resumen corto">
+
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#0b5cad">
+  <link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../assets/css/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script defer src="../../assets/js/main.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "EDITA: título del artículo",
+    "description": "EDITA: resumen",
+    "inLanguage": "es",
+    "datePublished": "AAAA-MM-DD",
+    "dateModified": "AAAA-MM-DD",
+    "author": { "@type": "Organization", "name": "StudioScript Guide" },
+    "publisher": { "@type": "Organization", "name": "StudioScript Guide" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../../">
+        <img src="../../assets/img/favicon.svg" alt="" width="28" height="28">
+        <span>StudioScript Guide</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menú</button>
+      <nav id="site-nav" class="site-nav" aria-label="Principal">
+        <ul>
+          <li><a href="../" aria-current="page">Tutoriales</a></li>
+          <li><a href="../../about/">Acerca de</a></li>
+          <li><a href="../../contact/">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Migas de pan">
+        <ol>
+          <li><a href="../../">Inicio</a></li>
+          <li><a href="../">Tutoriales</a></li>
+          <li aria-current="page">EDITA: título corto</li>
+        </ol>
+      </nav>
+
+      <div class="page-head">
+        <p>
+          <span class="badge">EDITA: categoría</span>
+          <span class="badge badge--demo" data-remove-before-publish>Borrador</span>
+        </p>
+        <h1>EDITA: título del artículo</h1>
+        <p class="lead">EDITA: una o dos frases que expliquen qué conseguirá el lector.</p>
+        <ul class="meta">
+          <li>Nivel: EDITA (principiante / intermedio)</li>
+          <li>Actualizado: <time datetime="AAAA-MM-DD">EDITA: fecha</time></li>
+        </ul>
+      </div>
+
+      <div class="article-layout">
+
+        <!-- TABLA DE CONTENIDOS: cada enlace debe apuntar al id de un <h2> del artículo. -->
+        <aside class="toc-col">
+          <nav class="toc" aria-labelledby="toc-titulo" data-toc>
+            <h2 id="toc-titulo">En esta guía</h2>
+            <ol>
+              <li><a href="#requisitos">Requisitos</a></li>
+              <li><a href="#paso-1">Paso 1: EDITA</a></li>
+              <li><a href="#fuentes">Fuentes</a></li>
+              <li><a href="#relacionados">Artículos relacionados</a></li>
+            </ol>
+          </nav>
+        </aside>
+
+        <article class="article prose">
+          <div class="notice notice--warn" role="note" data-remove-before-publish>
+            <p><strong>Borrador pendiente de verificación.</strong> Prueba cada paso y cada bloque de código antes de publicar. Después borra este aviso y la etiqueta <code>noindex</code>.</p>
+          </div>
+
+          <h2 id="requisitos">Requisitos</h2>
+          <ul>
+            <li>EDITA: qué necesita saber o tener el lector.</li>
+          </ul>
+
+          <h2 id="paso-1">Paso 1: EDITA</h2>
+
+          <!-- INSTRUCCIONES NUMERADAS -->
+          <ol class="steps" role="list">
+            <li>EDITA: primera acción.</li>
+            <li>EDITA: segunda acción.</li>
+          </ol>
+
+          <!-- BLOQUE DE CÓDIGO: el JavaScript añade botón de copiar y colorea Lua.
+               Escribe < como &lt; y & como &amp; dentro del código. -->
+<pre><code class="language-lua">-- EDITA: código de ejemplo
+print("Hola")</code></pre>
+
+          <!-- AVISOS: notice--info, notice--tip o notice--warn -->
+          <div class="notice notice--tip" role="note">
+            <p><strong>Consejo:</strong> EDITA.</p>
+          </div>
+
+          <h2 id="fuentes">Fuentes y lectura adicional</h2>
+          <ul>
+            <li><a href="https://create.roblox.com/docs">EDITA: enlace a la fuente oficial que hayas usado</a></li>
+          </ul>
+
+          <!-- ARTÍCULOS RELACIONADOS: enlaza solo a guías que existan de verdad. -->
+          <section class="related" aria-labelledby="relacionados">
+            <h2 id="relacionados">Artículos relacionados</h2>
+            <ul class="grid">
+              <li class="card">
+                <h3><a class="card__link" href="../EDITA-otro-articulo/">EDITA: título del artículo relacionado</a></h3>
+                <p>EDITA: una frase que explique por qué es útil leerlo después.</p>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p><strong>StudioScript Guide</strong></p>
+        <p>Tutoriales para aprender Roblox Studio y Lua desde cero.</p>
+        <p class="small">Roblox y Roblox Studio son marcas de Roblox Corporation. Este sitio es independiente y no está afiliado ni respaldado por Roblox.</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <ul class="footer-links">
+          <li><a href="../">Tutoriales</a></li>
+          <li><a href="../../about/">Acerca de</a></li>
+          <li><a href="../../contact/">Contacto</a></li>
+          <li><a href="../../privacy-policy/">Política de privacidad</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container"><p class="small">© 2026 StudioScript Guide</p></div>
+  </footer>
+</body>
+</html>
