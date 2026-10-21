@@ -3,3 +3,4 @@
 # y los rastreadores suelen buscar robots.txt en la raíz del dominio.
 User-agent: *
 Allow: /
+Sitemap: https://bloodonce11-cloud.github.io/studioscript-guide/sitemap.xml
